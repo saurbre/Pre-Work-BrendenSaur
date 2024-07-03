@@ -83,14 +83,13 @@ body{
     font-family: 'Rockwell';
     position: relative;
     margin-top: 20px;
-    width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgb(12, 12, 82);
-    font-size: 2vw;
+    font-size: 1.5vw;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%);  
+    padding-top: 0.3vw;  
 }
 
 /* Type Writer Animation */
@@ -101,7 +100,7 @@ body{
 
 @keyframes typewriter{
     from{width: 0;}
-    to{width: 22.5em;}
+    to{width: 14em;}
   }
   @keyframes blinkTextCursor{
     from{border-right-color: rgb(12, 12, 82);}
