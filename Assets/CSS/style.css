@@ -1,26 +1,32 @@
 body{
 }
 
-#title, #headshot, #email, #phone_number {
+#title, #headshot, #email, #phone_number, .vert_line, #linked_in {
     display: inline-block;
     vertical-align: middle;
     top: 0;
+}
+
+#header {
+    font-family: 'Rockwell', serif;
 }
 
 #title {
     margin-top: 8%;
     margin-left: 5%;
     font-size: 7vw;
-    font-family: 'Rockwell', serif;
+    
+    color:black;
 }
 
 #headshot {
     width: 30%;
     position: absolute;
     right: 0;
-    outline: black solid 5px;
+    outline: rgb(12, 12, 82) solid 5px;
+    border-radius: 10%;
     margin-right: 5%;
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 #email {
@@ -28,7 +34,7 @@ body{
     margin-top: 15vw;
     left: 0;
     margin-left: 6%;
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 
 #phone_number {
@@ -36,5 +42,35 @@ body{
     margin-top: 15vw;
     left: 0;
     margin-left: 40%;
-    font-size: 2.5vw;
+    font-size: 1.9vw;
+}
+
+#vert_line_1, #vert_line_2 {
+    position: absolute;
+    margin-top: 15.2vw;
+    left: 0;
+    margin-left: 29.5%;
+    font-size: 1.6vw;
+}
+
+#vert_line_2 {
+    margin-left: 36.4vw;
+}
+
+#linked_in {
+    position: absolute;
+    margin-top: 14.8vw;
+    left: 0;
+    margin-left: 32.3%;
+    width: 2.4vw;
+}
+
+#contacts {
+    color: black;
+}
+
+#header_line {
+    width: 100%;
+    margin-top: 3vw;
+    border-top: 3px dotted rgb(12, 12, 82) ;
 }

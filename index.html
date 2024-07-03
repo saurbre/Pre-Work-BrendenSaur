@@ -6,13 +6,22 @@
     <title>Brenden Saur</title>
     <link rel="stylesheet" href="./Assets/CSS/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+    <script src="./Assets/Scripts/hoverEffect.js"></script>
+</body>
 </head>
 <body>
     <div id="header">
         <h1 id="title">Brenden Saur</h1>
         <img src="./Assets/Images/headshot.jpg" id="headshot">
-        <h6 id="email">saurbre@umich.edu</h6>
-        <h6 id="phone_number">(616)292-9807</h6>
+        <div id="contacts">
+            <h6 id="email">saurbre@umich.edu</h6>
+            <h6 id="vert_line_1" class="vert_line">|</h6>
+            <a href="https://www.linkedin.com/in/bs08">
+                <img id="linked_in" src="./Assets/Images/linkedin_white.jpg" onmouseover="hoverLinkedIn(true)" onmouseout="hoverLinkedIn(false)"></a>
+            <h6 id="vert_line_2" class="vert_line">|</h6>
+            <h6 id="phone_number">(616)292-9807</h6>
+        </div>
+        <hr id="header_line">
     </div>
     <p>This is a paragraph of text on the homepage.</p>
 </body>
