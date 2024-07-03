@@ -16,56 +16,55 @@ body{
 }
 
 #title {
-    margin-top: 8%;
-    margin-left: 5%;
-    font-size: 7vw;
-    
+    margin-top: 3%;
+    margin-left: 10%;
+    font-size: 6vw;
     color:black;
 }
 
 #headshot {
-    width: 30%;
+    width: 20%;
     position: absolute;
     right: 0;
     outline: rgb(12, 12, 82) solid 5px;
     border-radius: 10%;
-    margin-right: 5%;
-    margin-top: 3%;
+    margin-right: 10%;
+    margin-top: 2%;
 }
 
 #email {
     position: absolute;
-    margin-top: 15vw;
+    margin-top: 11vw;
     left: 0;
-    margin-left: 6%;
-    font-size: 2vw;
+    margin-left: 10.7%;
+    font-size: 1.8vw;
 }
 
 #phone_number {
     position: absolute;
-    margin-top: 15vw;
+    margin-top: 11.1vw;
     left: 0;
     margin-left: 40%;
-    font-size: 1.9vw;
+    font-size: 1.7vw;
 }
 
 #vert_line_1, #vert_line_2 {
     position: absolute;
-    margin-top: 15.2vw;
+    margin-top: 11.1vw;
     left: 0;
-    margin-left: 29.5%;
+    margin-left: 31.3%;
     font-size: 1.6vw;
 }
 
 #vert_line_2 {
-    margin-left: 36.4vw;
+    margin-left: 37.3vw;
 }
 
 #linked_in {
     position: absolute;
-    margin-top: 14.8vw;
+    margin-top: 10.7vw;
     left: 0;
-    margin-left: 32.2%;
+    margin-left: 33.6%;
     width: 2.4vw;
 }
 
@@ -75,18 +74,19 @@ body{
 
 #header_line {
     width: 100%;
-    margin-top: 3vw;
+    margin-top: 2.5vw;
     border-top: 3px dotted rgb(12, 12, 82) ;
     margin-bottom: 3vw;
 }
 
 .body_text {
+    font-family: 'Rockwell';
     position: relative;
     margin-top: 20px;
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgb(12, 12, 82);
-    font-size: 180%;
+    font-size: 2vw;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -101,7 +101,7 @@ body{
 
 @keyframes typewriter{
     from{width: 0;}
-    to{width: 18em;}
+    to{width: 22.5em;}
   }
   @keyframes blinkTextCursor{
     from{border-right-color: rgb(12, 12, 82);}
