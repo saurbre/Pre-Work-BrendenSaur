@@ -1,0 +1,27 @@
+body{
+}
+
+#title, #headshot, #email {
+    display: inline-block;
+    vertical-align: middle;
+    top: 0;
+}
+
+#title {
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 9vw;
+}
+
+#headshot {
+    width: 30%;
+    position: absolute;
+    right: 0;
+    outline: black solid 5px;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+#email {
+
+}
