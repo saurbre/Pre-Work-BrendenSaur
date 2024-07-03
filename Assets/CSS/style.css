@@ -1,3 +1,7 @@
+html {
+    overflow: hidden;
+}
+
 body{
 }
 
@@ -73,4 +77,33 @@ body{
     width: 100%;
     margin-top: 3vw;
     border-top: 3px dotted rgb(12, 12, 82) ;
+    margin-bottom: 3vw;
 }
+
+.body_text {
+    position: relative;
+    margin-top: 20px;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgb(12, 12, 82);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);  
+}
+
+/* Type Writer Animation */
+.type_writer {
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter{
+    from{width: 0;}
+    to{width: 18em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgb(12, 12, 82);}
+    to{border-right-color: transparent;}
+  }
