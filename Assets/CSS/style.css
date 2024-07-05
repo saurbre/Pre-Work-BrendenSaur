@@ -84,7 +84,6 @@ body{
     position: relative;
     margin-top: 20px;
     margin: 0 auto;
-    border-right: 2px solid rgb(12, 12, 82);
     font-size: 1.5vw;
     text-align: center;
     white-space: nowrap;
@@ -92,17 +91,89 @@ body{
     padding-top: 0.3vw;  
 }
 
+
 /* Type Writer Animation */
 .type_writer {
-    animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
+    border-right: 2px solid rgb(12, 12, 82);
+    animation: typewriter1 8s steps(100) 1 normal both,
+             hideBorder 50ms 8s 1 normal both;
 }
 
-@keyframes typewriter{
+.type_writer2 {
+    border-right: 2px solid rgb(12, 12, 82);
+    margin-top: 1vw;
+    animation:  typewriter2 7s steps(80) 1 normal both,
+                hideBorder 50ms 7s 1 normal both;
+}
+
+.type_writer3 {
+    border-right: 2px solid rgb(12, 12, 82);
+    margin-top: 1vw;
+    animation:  typewriter3 8s steps(90) 1 normal both,
+                hideBorder 50ms 8s 1 normal both;
+}
+
+.type_writer4 {
+    border-right: 2px solid rgb(12, 12, 82);
+    margin-top: 1vw;
+    animation:  typewriter4 7s steps(80) 1 normal both,
+                hideBorder 50ms 7s 1 normal both;
+}
+
+.type_writer5 {
+    border-right: 2px solid rgb(12, 12, 82);
+    margin-top: 1vw;
+    animation:  typewriter5 6s steps(80) 1 normal both,
+                hideBorder 50ms 6s 1 normal both;
+}
+
+.type_writer6 {
+    border-right: 2px solid rgb(12, 12, 82);
+    margin-top: 1vw;
+    animation:  typewriter6 3s steps(50) 1 normal both,
+                hideBorder 50ms 3s 1 normal both;
+}
+
+@keyframes typewriter1{
     from{width: 0;}
-    to{width: 14em;}
-  }
-  @keyframes blinkTextCursor{
+    to{width: 54.5em;}
+}
+
+@keyframes typewriter2{
+    from{width: 0;}
+    to{width: 45em;}
+}
+
+@keyframes typewriter3{
+    from{width: 0;}
+    to{width: 56em;}
+}
+
+@keyframes typewriter4{
+    from{width: 0;}
+    to{width: 55em;}
+}
+
+@keyframes typewriter5{
+    from{width: 0;}
+    to{width: 46em;}
+}
+
+@keyframes typewriter6{
+    from{width: 0;}
+    to{width: 17em;}
+}
+
+@keyframes blinkTextCursor{
     from{border-right-color: rgb(12, 12, 82);}
     to{border-right-color: transparent;}
-  }
+}
+
+@keyframes hideBorder {
+    from { border-right-color: rgb(12, 12, 82); }
+    to { border-right-color: transparent; }
+}
+
+
+
+
