@@ -2,9 +2,6 @@ html {
     overflow: hidden;
 }
 
-body{
-}
-
 #title, #headshot, #email, #phone_number, .vert_line, #linked_in {
     display: inline-block;
     vertical-align: middle;
@@ -76,7 +73,7 @@ body{
     width: 100%;
     margin-top: 2.5vw;
     border-top: 3px dotted rgb(12, 12, 82) ;
-    margin-bottom: 3vw;
+    margin-bottom: 2vw;
 }
 
 .body_text {
@@ -89,6 +86,10 @@ body{
     white-space: nowrap;
     overflow: hidden;
     padding-top: 0.3vw;  
+}
+
+.bottom_images {
+    display: inline-block;
 }
 
 
