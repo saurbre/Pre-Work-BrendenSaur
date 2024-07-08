@@ -26,7 +26,7 @@ html {
     outline: rgb(12, 12, 82) solid 5px;
     border-radius: 10%;
     margin-right: 10%;
-    margin-top: 2%;
+    margin-top: 1.5%;
 }
 
 #email {
@@ -45,18 +45,6 @@ html {
     font-size: 1.7vw;
 }
 
-#vert_line_1, #vert_line_2 {
-    position: absolute;
-    margin-top: 11.1vw;
-    left: 0;
-    margin-left: 31.3%;
-    font-size: 1.6vw;
-}
-
-#vert_line_2 {
-    margin-left: 37.3vw;
-}
-
 #linked_in {
     position: absolute;
     margin-top: 10.7vw;
@@ -67,19 +55,18 @@ html {
 
 #contacts {
     color: black;
+    display: inline-block;
 }
 
 #header_line {
     width: 100%;
-    margin-top: 2.5vw;
+    margin-top: 3.5vw;
     border-top: 3px dotted rgb(12, 12, 82) ;
-    margin-bottom: 2vw;
 }
 
 .body_text {
     font-family: 'Rockwell';
     position: relative;
-    margin-top: 20px;
     margin: 0 auto;
     font-size: 1.5vw;
     text-align: center;
@@ -89,7 +76,10 @@ html {
 }
 
 .bottom_images {
-    display: inline-block;
+    width: 100%;
+    height: 220px !important;
+    object-fit: cover;
+    object-position: center;
 }
 
 
@@ -117,14 +107,14 @@ html {
 .type_writer4 {
     border-right: 2px solid rgb(12, 12, 82);
     margin-top: 1vw;
-    animation:  typewriter4 7s steps(80) 1 normal both,
+    animation:  typewriter4 7s steps(70) 1 normal both,
                 hideBorder 50ms 7s 1 normal both;
 }
 
 .type_writer5 {
     border-right: 2px solid rgb(12, 12, 82);
     margin-top: 1vw;
-    animation:  typewriter5 6s steps(80) 1 normal both,
+    animation:  typewriter5 6s steps(70) 1 normal both,
                 hideBorder 50ms 6s 1 normal both;
 }
 
