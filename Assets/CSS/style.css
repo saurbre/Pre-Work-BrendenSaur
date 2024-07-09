@@ -2,7 +2,7 @@ html {
     overflow: hidden;
 }
 
-#title, #headshot, #email, #phone_number, .vert_line, #linked_in {
+#title, #headshot .vert_line {
     display: inline-block;
     vertical-align: middle;
     top: 0;
@@ -29,38 +29,28 @@ html {
     margin-top: 1.5%;
 }
 
-#email {
-    position: absolute;
-    margin-top: 11vw;
-    left: 0;
-    margin-left: 10.7%;
-    font-size: 1.8vw;
-}
-
-#phone_number {
-    position: absolute;
-    margin-top: 11.1vw;
-    left: 0;
-    margin-left: 40%;
-    font-size: 1.7vw;
+#email, #phone_number, #linked_in {
+    position: static; /* Remove absolute positioning */
+    margin-top: 0; /* Resetting margins if necessary */
+    font-size: 1.8vw; /* Adjust font size as needed */
 }
 
 #linked_in {
-    position: absolute;
-    margin-top: 10.7vw;
-    left: 0;
-    margin-left: 33.6%;
-    width: 2.4vw;
+    width: 2vw;
+    margin-top: -10px;
 }
 
 #contacts {
     color: black;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 61%;
 }
 
 #header_line {
     width: 100%;
-    margin-top: 3.5vw;
+    margin-top: 2.5vw;
     border-top: 3px dotted rgb(12, 12, 82) ;
 }
 
